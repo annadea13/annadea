@@ -1,0 +1,23 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+ :root {
+   --contrast: rgb(183, 150, 159);
+   --backgr: #000;
+ }
+
+/* Use your variables on elements */
+ article {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+p{
+  background-color: var(--backgr);
+  color: var(--contrast)
+}
+
+
+
